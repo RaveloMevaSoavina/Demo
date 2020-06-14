@@ -1,0 +1,68 @@
+/* reset navigator built-in config */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* config emplacement */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+  background-repeat: no-repeat;
+}
+
+/* Utilities classes */
+img {
+  width: 18rem;
+  border-radius: 50%;
+}
+a {
+  color: #fff;
+}
+
+/* top bar */
+
+.top {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 1rem;
+}
+
+.top .icon {
+  margin-right: 2rem;
+}
+
+.top .brand {
+  margin-left: 2rem;
+  color: #ccc;
+}
+
+/* main content */
+
+.container {
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+}
+
+.container h1,
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  line-height: 2rem;
+  padding: 2rem;
+}
+
+.container h2 {
+  color: rgb(233, 234, 0);
+  font-size: 1.5rem;
+}
